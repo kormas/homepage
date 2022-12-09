@@ -1,0 +1,23 @@
+.section {
+    max-width: 1000px;
+    margin: 0px auto 100px;
+    border: 2px solid black;
+    padding: 10px 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    outline: 10px dotted gold;
+    outline-offset: -5px;
+    background-color: #98ccff;
+    box-shadow: 28px 0px 27px -21px #545886;
+}
+
+.section__header {
+    color: #c51717;
+    background-color: darkblue;
+    text-align: center;
+}
+
+.section__container {
+    overflow-x: auto;
+}
