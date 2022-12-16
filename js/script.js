@@ -18,6 +18,8 @@
 
         welcome();
     }
+
+    init();
 }
 
 let howMuch = document.querySelector(".js-taskHowMuch").innerText;
