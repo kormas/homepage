@@ -4,16 +4,16 @@
     };
     
     const toggleBackground = () => {
-        let body = document.querySelector(".js-body");
-        let theme = document.querySelector(".js-theme");
+        const body = document.querySelector(".js-body");
+        const theme = document.querySelector(".js-theme");
 
         body.classList.toggle("body--dark")
         theme.innerText = body.classList.contains("body--dark") ? "jasny" : "ciemny";
     };
     
     const whichRuler = () => {
-        let howMuch = document.querySelector(".js-taskHowMuch").innerText;
-        let ruler = document.querySelector(".js-taskRuler");
+        const howMuch = document.querySelector(".js-taskHowMuch").innerText;
+        const ruler = document.querySelector(".js-taskRuler");
 
         switch (howMuch) {
             case "10":
