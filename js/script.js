@@ -15,28 +15,31 @@
         const howMuch = document.querySelector(".js-taskHowMuch").innerText;
         const ruler = document.querySelector(".js-taskRuler");
 
+        let text;
+
         switch (howMuch) {
             case "10":
-                ruler.innerText = "Mieszko I";
+                text = "Mieszko I";
                 break;
             case "20":
-                ruler.innerText = "Bolesław I Chrobry";
+                text = "Bolesław I Chrobry";
                 break;
             case "50":
-                ruler.innerText = "Kazimierz III Wielki";
+                text = "Kazimierz III Wielki";
                 break;
             case "100":
-                ruler.innerText = "Władysław II Jagiełło";
+                text = "Władysław II Jagiełło";
                 break;
             case "200":
-                ruler.innerText = "Zygmunt I Stary";
+                text = "Zygmunt I Stary";
                 break;
             case "500":
-                ruler.innerText = "Jan III Sobieski";
+                text = "Jan III Sobieski";
                 break;
             default:
-                ruler.innerText = "Taki banknot nie istnieje";
+                text = "Taki banknot nie istnieje";
         };
+        ruler.innerText = text;
     };
 
     const init = () => {
